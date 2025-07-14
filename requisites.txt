@@ -1,0 +1,17 @@
+
+!apt-get install git-lfs
+!git lfs install
+
+!git init Classical-Piano-Composer
+
+!git remote add origin https://github.com/Skuldur/Classical-Piano-Composer.git
+!git config core.sparseCheckout true
+
+!echo "midi_songs" >> .git/info/sparse-checkout
+!echo "data" >> .git/info/sparse-checkout
+!echo "weights.hdf5" >> .git/info/sparse-checkout
+!git pull origin master
+
+!pip install music21
+!pip install keras
+!pip install tensorflow

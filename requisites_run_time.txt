@@ -1,0 +1,6 @@
+!apt install fluidsynth
+!cp /usr/share/sounds/sf2/FluidR3_GM.sf2 ./font.sf2
+
+!ls -l
+
+!fluidsynth -ni font.sf2 /content/Classical-Piano-Composer/test_output2.mid -F output2.wav -r 44100

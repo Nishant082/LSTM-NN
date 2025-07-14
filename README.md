@@ -1,1 +1,1 @@
-# LSTM-NN
+# LSTM-NN for Generation of Music
